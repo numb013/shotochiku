@@ -30,7 +30,7 @@
 
 			event.preventDefault();
 
-			if ( $('#navbar').is(':visible') ) {
+			if ( $('#navbar-top').is(':visible') ) {
 				$(this).removeClass('active');
 			} else {
 				$(this).addClass('active');	
@@ -60,9 +60,9 @@
 	// Page Nav
 	var clickMenu = function() {
 
-		$('#navbar a:not([class="external"])').click(function(event){
+		$('#navbar-top a:not([class="external"])').click(function(event){
 			var section = $(this).data('nav-section'),
-				navbar = $('#navbar');
+				navbar = $('#navbar-top');
 
 				if ( $('[data-section="' + section + '"]').length ) {
 			    	$('html, body').animate({
@@ -86,7 +86,7 @@
 	// Reflect scrolling in navigation
 	var navActive = function(section) {
 
-		var $el = $('#navbar > ul');
+		var $el = $('#navbar-top > ul');
 		$el.find('li').removeClass('active');
 		$el.each(function(){
 			$(this).find('a[data-nav-section="'+section+'"]').closest('li').addClass('active');

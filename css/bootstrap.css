@@ -282,7 +282,7 @@ th {
     page-break-after: avoid;
   }
 
-  .navbar {
+  .navbar-top {
     display: none;
   }
 
@@ -4645,21 +4645,21 @@ tbody.collapse.in {
   border-top-left-radius: 0;
 }
 
-.navbar {
+.navbar-top {
   position: relative;
   min-height: 55px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
-.navbar:before, .navbar:after {
+.navbar-top:before, .navbar-top:after {
   content: " ";
   display: table;
 }
-.navbar:after {
+.navbar-top:after {
   clear: both;
 }
 @media (min-width: 768px) {
-  .navbar {
+  .navbar-top {
     border-radius: 4px;
   }
 }
@@ -4793,7 +4793,7 @@ tbody.collapse.in {
   display: block;
 }
 @media (min-width: 768px) {
-  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  .navbar-top > .container .navbar-brand, .navbar-top > .container-fluid .navbar-brand {
     margin-left: -15px;
   }
 }
