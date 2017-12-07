@@ -291,7 +291,7 @@ img {
   box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
 }
 
-#fh5co-home {
+/*#fh5co-home {
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
@@ -299,7 +299,7 @@ img {
   width: 100%;
   color: #fff;
 
-background-image: url(../images/full_image_3.jpg);
+background-image: url(../images/top2.jpg);
   /* 画像を常に天地左右の中央に配置 */
   background-position: center center;
    
@@ -316,7 +316,7 @@ background-image: url(../images/full_image_3.jpg);
   background-color: #464646;
 
 
-}
+}*/
 #fh5co-home h2 {
   font-family: "Prata", serif;
   font-size: 16px !important;

@@ -74,6 +74,8 @@
 	<script src="js/google_map.js"></script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
+	<!-- Main JS (Do not remove) -->
+	<script src="js/jquery.bgswitcher.js"></script>
 
 
 <script type="text/javascript">
@@ -90,8 +92,32 @@ $(".main_img").css("min-height", h + "px");
 });
 
 </script>
-
-
+<script>
+jQuery(function($) {
+    $('.bg-slider').bgSwitcher({
+        images: ['images/top1.jpg','images/top2.jpg','images/full_image_3.jpg'], // 切り替える背景画像を指定
+    });
+});
+</script>
+<style>
+.main_img {
+	width: 100vw;
+	height: 100vh;
+	background-position:center center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bg-slider__title{
+	color: #fff;
+	font-size: 48px;
+	line-height: 1.5;
+	font-weight: bold;
+	text-align:center;
+	text-shadow: 1px 1px 1px #000;
+}
+</style>
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -127,7 +153,7 @@ $(".main_img").css("min-height", h + "px");
  
 	</header>
 
-	<section id="fh5co-home" data-section="home" class='main_img'>
+	<section id="fh5co-home" data-section="home" class='main_img bg-slider'>
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="text-wrap main_img">

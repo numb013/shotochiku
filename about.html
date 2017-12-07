@@ -91,7 +91,6 @@ $(".main_img").css("min-height", h + "px");
 
 </script>
 
-
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -146,14 +145,35 @@ $(".main_img").css("min-height", h + "px");
 	</section>
 
 
+<style>
+.example {/*親div*/
+  position: relative;/*相対配置*/
+  }
 
+.example p {
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  top: 10;
+  left: 10;
+
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+
+  }
+
+.example img {
+  width: 100%;
+  }
+</style>
 
 
 	<section id="fh5co-about" data-section="about">
 		<div class="container">
 
 			<div class="row">
-				<div class="col-md-7 col-md-pull-1">
+				<div class="col-md-7 col-md-pull-1 example">
+					<p>この世は救るアンドビルド</p>
 					<img src="images/img_1.jpg" class="img-shadow img-responsive" alt="Free HTML5 Bootstrap Template">
 				</div>
 				<div class="col-md-5">
