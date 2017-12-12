@@ -71,10 +71,9 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Google Map -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
+
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
-
 
 <script type="text/javascript">
 	
@@ -92,14 +91,57 @@ $(".main_img").css("min-height", h + "px");
 </script>
 
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
+
+
+
 
 	</head>
 	<body>
+
+<style>
+.example {/*親div*/
+  position: relative;/*相対配置*/
+  }
+
+.example p {
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  top: 10;
+  left: 10;
+
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+
+  }
+
+.example img {
+  width: 50%;
+  }
+</style>
+  <div class="slider" style="width: 50%;">
+	<div class="swiper-slide"><img src="images/top1.jpg" alt=""></div>
+	<div class="swiper-slide"><img src="images/top2.jpg" alt=""></div>
+  </div>
+
+
+
+
+
 	<header role="banner" id="fh5co-header">
 		
 		<nav class="navbar navbar-default">
@@ -145,27 +187,49 @@ $(".main_img").css("min-height", h + "px");
 	</section>
 
 
-<style>
-.example {/*親div*/
-  position: relative;/*相対配置*/
-  }
 
-.example p {
-  position: absolute;/*絶対配置*/
-  color: white;/*文字は白に*/
-  top: 10;
-  left: 10;
 
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
 
-  }
 
-.example img {
-  width: 100%;
-  }
-</style>
+	<section id="fh5co-home" style="background-image: url(images/top1.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="text-wrap main_img">
+				<div class="text-inner">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1 to-animate">
+							<h1>捨てられていくものでつくる新しい内装設計の姿</h1>
+							<h2>外で風雨に晒されて、長い時を過ごした建物の壁や建材には、その場所の歴史や持ち主との時が刻み込まれた豊かな表情のものがたくさんあります。 しかし、そのような古い建物は、用途が無くなるとあたりまえのように壊され、この世界からことごとく姿を消していきます。 そんな、そのままにしていては失われてしまうものを、"SOTOCHIKU(外築)"と名づけ従来の内装設計と組み合わせることによって今までになかった感度の高い新しい空間をつくることを始めました。</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+	<section id="fh5co-home" style="background-image: url(images/top2.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="text-wrap main_img">
+				<div class="text-inner">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1 to-animate">
+							<h1>捨てられていくものでつくる新しい内装設計の姿</h1>
+							<h2>外で風雨に晒されて、長い時を過ごした建物の壁や建材には、その場所の歴史や持ち主との時が刻み込まれた豊かな表情のものがたくさんあります。 しかし、そのような古い建物は、用途が無くなるとあたりまえのように壊され、この世界からことごとく姿を消していきます。 そんな、そのままにしていては失われてしまうものを、"SOTOCHIKU(外築)"と名づけ従来の内装設計と組み合わせることによって今までになかった感度の高い新しい空間をつくることを始めました。</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
 
 
 	<section id="fh5co-about" data-section="about">
