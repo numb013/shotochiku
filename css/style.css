@@ -11,6 +11,10 @@
 *	Edit this section
 *
 * ======================================================= */
+html {
+    position: relative;
+    height: 100%;
+}
 body {
   font-family: "Prata", serif;
   font-weight: 300;
@@ -20,6 +24,7 @@ body {
   background: #26272c;
   height: 100%;
   position: relative;
+  height: 100%;
 }
 
 a {
