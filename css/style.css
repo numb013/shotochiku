@@ -136,14 +136,37 @@ h1, h2, h3, h4, h5, h6 {
   transform: scaleX(1);
 }
 
+.filter_imag {
+    background: rgba(38, 39, 44, 0.54);
+    width: 100%;
+    height: 100%;
+}
 
 
+.about_back_1 {
+    background: url('../images/top2.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
-
+.about_back_2 {
+    background: url('../images/benefit1_b.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .image_back {
-  background: url('../images/top2.jpg');
+    background-image: url('../images/top2.jpg');
     width: 100vw;
     height: 100vh;
     background-position: center center;
@@ -286,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
   border-radius: 0px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
 
 }
 @media screen and (max-width: 768px) {
@@ -352,10 +375,10 @@ background-image: url(../images/top2.jpg);
 #fh5co-home h2 {
   font-family: "Prata", serif;
   font-size: 16px !important;
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: rgba(255, 255, 255, 0.3);
 }
 #fh5co-home a {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: rgba(255, 255, 255, 0.8) ;
   text-decoration: underline;
 }
 #fh5co-home a:hover {
@@ -370,7 +393,7 @@ background-image: url(../images/top2.jpg);
   right: 0;
   z-index: 2;
   width: 100%;
-  background: rgba(38, 39, 44, 0.2);
+  background: rgba(38, 39, 44, 0.54);
 }
 #fh5co-home, #fh5co-home .text-wrap {
 /*  height: 100%;*/
@@ -534,7 +557,7 @@ background-image: url(../images/top2.jpg);
 }
 @media screen and (max-width: 768px) {
   #fh5co-testimony {
-    padding: 3em 0;
+/*    padding: 3em 0;*/
   }
 }
 #fh5co-testimony .wrap-testimony {
@@ -572,7 +595,7 @@ background-image: url(../images/top2.jpg);
 #fh5co-testimony .wrap-testimony .testimony-slide blockquote {
   border: none;
   margin: 0 auto;
-  width: 72%;
+  width: 85%;
   position: relative;
   padding-bottom: 30px;
   margin-bottom: 30px;
@@ -988,7 +1011,23 @@ background-image: url(../images/top2.jpg);
 #fh5co-footer .contact-form .form-group input[type="email"],
 #fh5co-footer .contact-form .form-group textarea {
   font-size: 14px;
+    width: 45%;
+    float: left;
+      margin: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  #fh5co-footer .contact-form .form-group input[type="name"],
+  #fh5co-footer .contact-form .form-group input[type="text"],
+  #fh5co-footer .contact-form .form-group input[type="email"],
+  #fh5co-footer .contact-form .form-group textarea {
+    font-size: 14px;
+    width: 92%;
+    float: left;
+    margin: 10px;
+  }
+}
+
 #fh5co-footer .contact-form .form-group input[type="name"]::-webkit-input-placeholder,
 #fh5co-footer .contact-form .form-group input[type="text"]::-webkit-input-placeholder,
 #fh5co-footer .contact-form .form-group input[type="email"]::-webkit-input-placeholder,
@@ -1029,6 +1068,7 @@ background-image: url(../images/top2.jpg);
   border: none;
   background: #3e3f47;
   box-shadow: none;
+  width: 92%;
 }
 #fh5co-footer #btn-submit {
   color: rgba(255, 255, 255, 0.9) !important;
@@ -1383,6 +1423,36 @@ background-image: url(../images/top2.jpg);
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
 }
 
+
+.call-action {
+  margin-bottom: 10%;
+  display:-webkit-box;
+}
+
+.call-action .call-width {
+   margin: 0 auto;
+    width: 60%;
+}
+
+.tow_buttom {
+    border: 2px solid #ffffff;
+    background: #ffffff;
+    text-decoration: none !important;
+    border-radius: 4px;
+    padding: 10px;
+    color: #000 !important;
+    font-family:メイリオ;
+    font-size: 15px;
+}
+
+.material_buttom {
+  float: left;
+  width: 45%;
+}
+.dismantling_buttom {
+  width: 45%;
+  float: right;
+}
 
 .fh5co-blog .blog-top-text {
   margin-bottom: 0px;
