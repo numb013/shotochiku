@@ -1019,6 +1019,7 @@ background-image: url(../images/top2.jpg);
 #fh5co-footer .contact-form .form-group input[type="name"],
 #fh5co-footer .contact-form .form-group input[type="text"],
 #fh5co-footer .contact-form .form-group input[type="email"],
+#fh5co-footer .contact-form .form-group input[type="file"],
 #fh5co-footer .contact-form .form-group textarea {
   font-size: 14px;
     width: 45%;
@@ -1030,6 +1031,7 @@ background-image: url(../images/top2.jpg);
   #fh5co-footer .contact-form .form-group input[type="name"],
   #fh5co-footer .contact-form .form-group input[type="text"],
   #fh5co-footer .contact-form .form-group input[type="email"],
+  #fh5co-footer .contact-form .form-group input[type="file"],
   #fh5co-footer .contact-form .form-group textarea {
     font-size: 14px;
     width: 92%;
