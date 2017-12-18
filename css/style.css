@@ -1470,7 +1470,7 @@ background-image: url(../images/top2.jpg);
     padding: 10px;
     color: #fff !important;
     font-family: メイリオ;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .material_buttom {
@@ -1478,7 +1478,7 @@ background-image: url(../images/top2.jpg);
   width: 45%;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 780px) {
   .material_buttom {
     float: left;
   }
