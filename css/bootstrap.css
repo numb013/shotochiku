@@ -4527,6 +4527,7 @@ tbody.collapse.in {
 .nav > li {
   position: relative;
   display: block;
+  border-bottom: #c1c1c1 solid 1px;
 }
 .nav > li > a {
   position: relative;
@@ -4759,7 +4760,7 @@ tbody.collapse.in {
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px;
-  background: #fff;
+  background-color: rgba(255, 255, 0, 0);
 }
 @media (min-width: 768px) {
   .container > .navbar-header,
@@ -4768,6 +4769,7 @@ tbody.collapse.in {
   .container-fluid > .navbar-collapse {
     margin-right: 0;
     margin-left: 0;
+    background-color: rgba(255, 255, 0, 0);
   }
 }
 
@@ -4863,6 +4865,15 @@ tbody.collapse.in {
   padding-bottom: 10px;
   line-height: 20px;
 }
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    margin: 0px -15px;
+    background: #ffffffe8;
+  }
+}
+
+
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
@@ -5055,7 +5066,6 @@ tbody.collapse.in {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
   color: #ccc;
