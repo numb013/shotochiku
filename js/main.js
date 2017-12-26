@@ -156,11 +156,11 @@
 							var el = $(this);
 							
 							setTimeout ( function () {
-								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
+								el.addClass('fadeIn animated');
+							},  k * 800, 'easeInOutExpo' );
 							
 						});
-					}, 200);
+					}, 800);
 
 					
 					$(this.element).addClass('animated');
@@ -170,6 +170,39 @@
 
 		}
 	};
+
+	// Animations
+	// About
+	var aboutAnimate = function() {
+		if ( $('#fh5co-about').length > 0 ) {	
+
+			$('#fh5co-about').waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+
+					setTimeout(function() {
+						$('#fh5co-about .to-animate').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeIn animated');
+							},  k * 1000, 'easeInOutExpo' );
+							
+						});
+					}, 1000);
+
+					
+					$(this.element).addClass('animated');
+						
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
+
+
+
 
 	var exploreAnimate = function() {
 
@@ -186,11 +219,11 @@
 							var el = $(this);
 							
 							setTimeout ( function () {
-								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
+								el.addClass('fadeIn animated');
+							},  k * 800, 'easeInOutExpo' );
 							
 						});
-					}, 200);
+					}, 800);
 
 					setTimeout(function() {
 						explore.find('.to-animate-2').each(function( k ) {
@@ -329,6 +362,18 @@
 						});
 					}, sec);
 
+
+					setTimeout(function() {
+						services.find('.to-animate-3').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeIn animated');
+							},  k * 1000, 'easeInOutExpo' );
+							
+						});
+					}, 1000);
+
 					
 					$(this.element).addClass('animated');
 						
@@ -382,8 +427,6 @@
 	};
 
 	
-	
-
 	var footerAnimate = function() {
 		var footer = $('#fh5co-footer');
 		if ( footer.length > 0 ) {	
@@ -398,38 +441,10 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeIn animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 800, 'easeInOutExpo' );
 							
 						});
-					}, 200);
-
-					
-					$(this.element).addClass('animated');
-						
-				}
-			} , { offset: '80%' } );
-
-		}
-	};
-
-	var footerAnimate = function() {
-		var footer = $('#fh5co-footer');
-		if ( footer.length > 0 ) {	
-
-			footer.waypoint( function( direction ) {
-										
-				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-
-					setTimeout(function() {
-						footer.find('.to-animate').each(function( k ) {
-							var el = $(this);
-							
-							setTimeout ( function () {
-								el.addClass('fadeIn animated');
-							},  k * 200, 'easeInOutExpo' );
-							
-						});
-					}, 200);
+					}, 800);
 
 					
 					$(this.element).addClass('animated');
@@ -453,6 +468,7 @@
 		
 		// Animations
 		homeAnimate();
+		aboutAnimate();
 		exploreAnimate();
 		testimonyAnimate();
 		gettingStartedAnimate();

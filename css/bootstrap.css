@@ -4527,8 +4527,15 @@ tbody.collapse.in {
 .nav > li {
   position: relative;
   display: block;
-  border-bottom: #c1c1c1 solid 1px;
+/*  border-bottom: #757575 solid 1px;*/
 }
+@media (max-width: 768px) {
+  .nav > li {
+    border-bottom: #757575 solid 1px;
+  }
+}
+
+
 .nav > li > a {
   position: relative;
   display: block;
@@ -4869,7 +4876,7 @@ tbody.collapse.in {
 @media (max-width: 767px) {
   .navbar-nav {
     margin: 0px -15px;
-    background: #ffffffe8;
+    background: #000000d9;
   }
 }
 
@@ -5058,14 +5065,16 @@ tbody.collapse.in {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #fff;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: #ccc;
   background-color: transparent;
 }
+
+
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #555;
+  color: #fff;
 }
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
   color: #ccc;
