@@ -1617,7 +1617,7 @@ background-image: url(../images/top2.jpg);
 .flow_line {
   width: 6px;
   background-color: #e2e2e2;
-  height: 1585px;
+  height: 535%;
   position: absolute;
   left: 103px;
   top: 50px;
@@ -1627,7 +1627,7 @@ background-image: url(../images/top2.jpg);
 .flow_line {
     width: 19px;
     background-color: #f9f9f9;
-    height: 3740px;
+    height: 503%;
     position: absolute;
     left: 49%;
     top: 50px;
