@@ -899,7 +899,7 @@ background-image: url(../images/top2.jpg);
   position: relative;
   padding: 30px;
   padding-top: 2em;
-  background: #fff;
+/*  background: #fff;*/
 /*  background: #18181c;*/
   float: left;
   width: 100%;
@@ -1565,7 +1565,7 @@ background-image: url(../images/top2.jpg);
   width: 45%;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
   .material_buttom {
     float: left;
   }
@@ -1594,7 +1594,14 @@ background-image: url(../images/top2.jpg);
     display: inline-block;
 }
 
-@media screen and (max-width: 1208px) {
+@media screen and (max-width: 1200px) {
+  .flow_text {
+      width: 70%;
+      margin-left: 0%;
+      display: inline-block;
+  }
+}
+@media screen and (max-width: 782px) {
   .flow {
       float: none;
       margin-top: 0%;
@@ -1607,8 +1614,30 @@ background-image: url(../images/top2.jpg);
   }
 }
 
+.flow_line {
+  width: 6px;
+  background-color: #e2e2e2;
+  height: 1585px;
+  position: absolute;
+  left: 103px;
+  top: 50px;
+  z-index: -1;
+}
+@media screen and (max-width: 768px) {
+.flow_line {
+    width: 19px;
+    background-color: #f9f9f9;
+    height: 3740px;
+    position: absolute;
+    left: 49%;
+    top: 50px;
+    z-index: -1;
+}
+}
 
 .fh5co-blog .blog-top-text {
   margin-bottom: 0px;
 
 /*# sourceMappingURL=style.css.map */
+
+
