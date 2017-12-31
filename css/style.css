@@ -72,8 +72,18 @@ h1, h2, h3, h4, h5, h6 {
   .sns {
    position: absolute;
    right: 5px;
-   bottom: 5px;
+   top: 66px;
   }
+
+
+@media screen and (max-width: 768px) {
+  .sns {
+    right: -36px;
+    bottom: 28px;
+    top: auto;
+  }
+}
+
   .sns_imag {
    padding: 5px 5px 10px 5px;
    float: left;
@@ -162,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .about_back_1 {
-    background: url('../images/top2.jpg');
+    background: url('../images/about_01.jpg');
     width: 100vw;
     height: 100vh;
     background-position: center center;
@@ -183,8 +193,41 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
+.about_back_3 {
+    background: url('../images/about_03.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_back_4 {
+    background: url('../images/about_02.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .image_back {
     background-image: url('../images/top2.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_back_4 {
+    background-image: url('../images/providing_02.jpg');
     width: 100vw;
     height: 100vh;
     background-position: center center;
@@ -265,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header .navbar-brand {
   float: left;
   display: block;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
   padding-left: 0;
   color: #fff;
@@ -334,7 +377,7 @@ background-color: #000
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
   border-radius: 0px;
-  background-color: rgba(255, 255, 0, 0);
+  background-color: rgba(0, 0, 0, 0.25);
 
 }
 @media screen and (max-width: 768px) {
@@ -418,7 +461,6 @@ background-image: url(../images/top2.jpg);
   right: 0;
   z-index: 2;
   width: 100%;
-  background: rgba(38, 39, 44, 0.54);
 }
 #fh5co-home, #fh5co-home .text-wrap {
 /*  height: 100%;*/
@@ -435,19 +477,34 @@ background-image: url(../images/top2.jpg);
   text-align: center;
 }
 #fh5co-home .text-inner h1 {
-  font-size: 38px;
+  font-size: 33px;
   text-transform: uppercase;
   color: #fff;
   margin: 0 0 20px 0;
   font-weight: 400;
 }
+
 #fh5co-home .text-inner h2 {
   font-size: 20px;
   line-height: 30px;
   font-weight: 300;
   color: #fff;
-  margin: 0 0 60px 0;
+  margin: 0 0 25px 0;
 }
+
+
+@media screen and (max-width: 400px) {
+  #fh5co-home .text-inner h1 {
+    font-size: 20px;
+  }
+
+  #fh5co-home .text-inner h2 {
+    font-size: 14px;
+  line-height: 20px;
+  }
+}
+
+
 #fh5co-home .text-inner .call-to-action {
   display: block;
   width: 100%;
@@ -487,6 +544,57 @@ background-image: url(../images/top2.jpg);
   text-decoration: none !important;
 }
 
+#fh5co-home .text-inner .call-to-action a.download_2 {
+  border: 2px solid #ffffff;
+  background: #d7393000;
+  text-decoration: none !important;
+}
+
+
+#fh5co-home .text-inner .call-to-action_1 p{
+  width: 230px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-family: "Open Sans", Arial, sans-serif;
+  -webkit-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
+  -ms-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
+  -o-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
+}
+
+
+.call-action_1 {
+  margin-bottom: 2%;
+  margin-top:20px;
+  display:-webkit-box;
+}
+
+.download_1 {
+  border: 2px solid #fff;
+  background: #fff;
+  text-decoration: none !important;
+  color: #000;
+}
+
+.tow_buttom_1 {
+    border: 2px solid #ffffff;
+    background: #ffffff;
+    text-decoration: none !important;
+    border-radius: 4px;
+    padding: 5px;
+    color: #000 !important;
+    font-family: メイリオ;
+    font-size: 12px;
+}
+
+
 #fh5co-services, #fh5co-testimony, #fh5co-about, #fh5co-explore, #fh5co-faq, #fh5co-team, #fh5co-trusted, #fh5co-footer {
   padding: 5em 0;
 }
@@ -515,6 +623,7 @@ background-image: url(../images/top2.jpg);
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  z-index: 999;
 }
 #fh5co-about .text-inner h1 {
   font-size: 38px;
@@ -652,7 +761,6 @@ background-image: url(../images/top2.jpg);
 
 
 #fh5co-testimony {
-  background: #f5f5f5;
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
@@ -994,11 +1102,7 @@ background-image: url(../images/top2.jpg);
   padding-bottom: 10px;
   line-height: 1.5;
 }
-@media screen and (max-width: 768px) {
-  .section-heading h2 {
-    font-size: 28px;
-  }
-}
+
 .section-heading h3 {
   font-size: 16px;
   font-weight: 400;
@@ -1009,6 +1113,14 @@ background-image: url(../images/top2.jpg);
   padding-bottom: 30px;
   font-family: "Prata", serif;
 }
+
+
+@media screen and (max-width: 768px) {
+  .section-heading h2 {
+    font-size: 20px;
+  }
+}
+
 .section-heading h3:after {
 /*  content: "";
   position: absolute;
@@ -1022,7 +1134,7 @@ background-image: url(../images/top2.jpg);
 }
 @media screen and (max-width: 768px) {
   .section-heading h3 {
-    font-size: 16px !important;
+    font-size: 14px !important;
     line-height: 28px;
   }
 }
@@ -1522,7 +1634,7 @@ background-image: url(../images/top2.jpg);
   padding-left: 7px;
 }
 .fh5co-blog .blog-text h3 {
-  font-size: 20px;
+  font-size: 13px;
   margin-bottom: 10px;
   line-height: 1.5;
 }
@@ -1572,9 +1684,18 @@ background-image: url(../images/top2.jpg);
   .call-action .call-width {
       width: 100%;
   }
-  .material_buttom {
-    width: 50%;
+
+  .fh5co-blog .blog-text h3 {
+    font-size: 12px;
   }
+.fh5co-heading h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.fh5co-heading p {
+    font-size: 12px;
+}
+
 }
 
 
@@ -1592,6 +1713,14 @@ background-image: url(../images/top2.jpg);
     margin-left: 5%;
     width: 80%;
     display: inline-block;
+}
+
+.flow_text h3{
+  color: #b7a643;
+}
+
+.about_flow_text p{
+  color: #fff;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1616,7 +1745,7 @@ background-image: url(../images/top2.jpg);
 
 .flow_line {
   width: 6px;
-  background-color: #e2e2e2;
+  background-color: #565656;
   height: 535%;
   position: absolute;
   left: 103px;
@@ -1624,20 +1753,62 @@ background-image: url(../images/top2.jpg);
   z-index: -1;
 }
 @media screen and (max-width: 768px) {
-.flow_line {
-    width: 19px;
-    background-color: #f9f9f9;
-    height: 503%;
-    position: absolute;
-    left: 49%;
-    top: 50px;
-    z-index: -1;
+  .flow_line {
+      width: 19px;
+      height: 503%;
+      position: absolute;
+      left: 47%;
+  }
 }
+
+
+.swiper-container h1 {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  margin: 15px auto 0px;
+}
+
+.swiper-container h2 {
+  font-size: 20px;
+  padding: 10px;
+  width: 50%;
+  margin: 15px auto 0px;
+}
+.swiper-container p {
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .cycle_imag_sp {
+    display: block;
+  }
+  .cycle_imag_pc {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cycle_imag_sp {
+    display: none;
+  }
+  .cycle_imag_pc {
+    display: block;
+  }
+}
+
+.material_text {
+  color: #ccc;
+  text-align: right;
 }
 
 .fh5co-blog .blog-top-text {
   margin-bottom: 0px;
-
+}
 /*# sourceMappingURL=style.css.map */
 
 

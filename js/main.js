@@ -182,15 +182,15 @@
 
 
 					setTimeout(function() {
-						$('#fh5co-about .to-animate').each(function( k ) {
+						$('#fh5co-about .to-animate_2').each(function( k ) {
 							var el = $(this);
 							
 							setTimeout ( function () {
 								el.addClass('fadeIn animated');
-							},  k * 1000, 'easeInOutExpo' );
+							},  k * 200, 'easeInOutExpo' );
 							
 						});
-					}, 1000);
+					}, 200);
 
 					
 					$(this.element).addClass('animated');
