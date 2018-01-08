@@ -9,58 +9,25 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>sotochiku</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="風雨に晒された壁を内装に持ち込むSOTOCHIKU（外築）" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FreeHTML5.cO" />
-
-  <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
-
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
-
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Prata" rel="stylesheet">
-	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Simple Line Icons -->
-	<link rel="stylesheet" href="css/simple-line-icons.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<!-- Style -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<link rel="stylesheet" href="css/swiper.min.css">
+
+	<link rel="stylesheet" href="css/lightbox.css">
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+
+	<script src="js/window.js"></script>
+
 	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
@@ -69,59 +36,14 @@
 	<script src="js/jquery.stellar.min.js"></script>
 	<!-- Owl Carousel -->
 	<script src="js/owl.carousel.min.js"></script>
-	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
+
+	<script src="js/lightbox.js"></script>
+
+	<script src="js/swiper.min.js"></script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/jquery.bgswitcher.js"></script>
-
-
-
-<script type="text/javascript">
-	
-$(window).load(function() {
-//画面高さ取得
-h = $(window).height();
-$(".main_img").css("min-height", h + "px");
-});
-$(window).resize(function() {
-//画面リサイズ時の高さ取得
-h = $(window).height();
-$(".main_img").css("min-height", h + "px");
-});
-
-</script>
-<script>
-jQuery(function($) {
-    $('.bg-slider').bgSwitcher({
-        images: ['images/top1.jpg','images/top2.jpg','images/top3.jpg'], // 切り替える背景画像を指定
-    });
-});
-</script>
-<style>
-.main_img {
-	width: 100vw;
-	height: 100vh;
-	background-position:center center;
-	background-size: cover;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.bg-slider__title{
-	color: #fff;
-	font-size: 48px;
-	line-height: 1.5;
-	font-weight: bold;
-	text-align:center;
-	text-shadow: 1px 1px 1px #000;
-}
-</style>
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -129,143 +51,55 @@ jQuery(function($) {
 
 	</head>
 	<body>
-	<header role="banner" id="fh5co-header">
-		
-		<nav class="navbar navbar-default">
-			<div class="container">
-				<div class="navbar-header">
-					<!-- Mobile Toggle Menu Button -->
-					<a href="index.html" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-					<a class="navbar-brand" href="index.html"><span>SOTOCHIKU</a> 
-				</div>
-				<div id="navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="about.html"><span>About</span></a></li>
-						<li><a href="business.html"><span>Business</span></a></li>
-						<li><a href="works.html"><span>Works</span></a></li>
-						<li><a href="material.html"><span>Material</span></a></li>
-						<li><a href="providing.html"><span>Providing</span></a></li>
-						<li><a href="contact.html"><span>Contact</span></a></li>
-						<li><a href="toukou.html"><span>素材提供</span></a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
- 
-	</header>
-
-	<section id="fh5co-home" data-section="home" class='main_img bg-slider'>
-		<div class="overlay main_img"></div>
-		<div class="container">
-			<div class="text-wrap main_img">
-				<div class="text-inner">
-					<div class="row">
-						<div class="col-md-10 col-md-offset-1 to-animate">
-							
-							<h2>Bring the weather exposed walls to the interior.</h2>
-								<h1 style="font-size: 40px;">外&nbsp;&nbsp;&nbsp;&nbsp;築</h1>
-							<h2>s o t o c h i k u</h2>
-						</div>
-
+		<header role="banner" id="fh5co-header">
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<!-- Mobile Toggle Menu Button -->
+						<a href="index.html" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+						<a class="navbar-brand" href="index.html"><span>SOTOCHIKU</a> 
 					</div>
+	<div id="navbar" class="navbar-collapse collapse">
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="about.html"><span>About</span></a></li>
+			<li><a href="business.html"><span>Business</span></a></li>
+			<li><a href="works.html"><span>Works</span></a></li>
+			<li><a href="material.html"><span>Material</span></a></li>
+			<li><a href="providing.html"><span>Providing</span></a></li>
+			<li><a href="contact.html"><span>Contact</span></a></li>
+			<li><a href="toukou.html"><span>素材提供</span></a></li>
+		</ul>
+	</div>
 				</div>
+			</nav>
+		</header>
 
-				<div>
-					<ul class='sns'>
-						<li class='sns_imag'><a href="https://www.facebook.com/pg/Gridframe1998/about/"  target="_blank"><img src="images/f_logo.png"></li>
-						<li class='sns_imag'><a href="http://instagram.com/_gridframe_" target="_blank"><img src="images/i_logo.png"></li>
-						<li class='sns_imag'><a href="http://d.hatena.ne.jp/yogosiurubi/" target="_blank"><img src="images/b_logo.png"></li>
-					</ul>
-				</div>
-
-			</div>
-		</div>
-	</section>
-
-
-
-
-
-
-
-<!-- 
-	<section id="fh5co-services" data-section="services">
-		<div class="fh5co-services">
+		<section id="fh5co-home" data-section="home" class='main_img bg-slider'>
+			<div class="overlay main_img"></div>
 			<div class="container">
-				<div class="row">
-					<div class="col-md-12 section-heading text-center">
-						<h2 class="to-animate">More Services</h2>
+				<div class="text-wrap main_img">
+					<div class="text-inner">
 						<div class="row">
-							<div class="col-md-8 col-md-offset-2 subtext">
-								<h3 class="to-animate">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove. </h3>
+							<div class="col-md-10 col-md-offset-1 to-animate">
+								<p style="color: #fff;">Bring the weather exposed walls to the interior.</h2>
+									<h1 style="font-size: 30px;">外&nbsp;&nbsp;&nbsp;&nbsp;築</h1>
+								<p style="color: #fff;">s o t o c h i k u</h2>
 							</div>
+
 						</div>
 					</div>
+
+					<div>
+						<ul class='sns'>
+							<li class='sns_imag'><a href="https://www.facebook.com/pg/Gridframe1998/about/"  target="_blank"><img src="images/f_logo.png"></li>
+							<li class='sns_imag'><a href="http://instagram.com/_gridframe_" target="_blank"><img src="images/i_logo.png"></li>
+							<li class='sns_imag'><a href="http://d.hatena.ne.jp/yogosiurubi/" target="_blank"><img src="images/b_logo.png"></li>
+						</ul>
+					</div>
+
 				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="box-services">
-							<i class="icon-shield to-animate-2"></i>
-							<div class="fh5co-post to-animate">
-								<h3>Human Rights</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in.</p>
-							</div>
-						</div>
-
-						<div class="box-services">
-							<i class="icon-shield to-animate-2"></i>
-							<div class="fh5co-post to-animate">
-								<h3>Personal Rights</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="box-services">
-							<i class="icon-shield to-animate-2"></i>
-							<div class="fh5co-post to-animate">
-								<h3>Immigration Rights</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in.</p>
-							</div>
-						</div>
-
-						<div class="box-services">
-							<i class="icon-shield to-animate-2"></i>
-							<div class="fh5co-post to-animate">
-								<h3>Family Rights</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="box-services">
-							<i class="icon-shield to-animate-2"></i>
-							<div class="fh5co-post to-animate">
-								<h3>Religious Freedom</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in.</p>
-							</div>
-						</div>
-
-						<div class="box-services">
-							<i class="icon-shield to-animate-2"></i>
-							<div class="fh5co-post to-animate">
-								<h3>Relationship Rights</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="call-to-action text-center to-animate"><a href="#" class="btn btn-learn">Learn More</a></div>
 			</div>
-		</div>
-	</section>	
-
-	 -->
-
-
-	
-
-
+		</section>
 	</body>
 </html>
 

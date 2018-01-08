@@ -1955,7 +1955,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1000px;
   }
 }
 
@@ -4876,7 +4876,7 @@ tbody.collapse.in {
   margin: 8.75px -15px;
 }
 .navbar-nav > li > a {
-  font-size: 13px;
+  font-size: 12px;
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
